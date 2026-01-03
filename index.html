@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Felicity Food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #a5d6a7;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Felicity Food</h1>
+    <p>Vente de légumes frais, fruits et épices naturels</p>
+</header>
+
+<nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#produits">Produits</a>
+    <a href="#apropos">À propos</a>
+</nav>
+
+<!-- ACCUEIL -->
+<section id="accueil">
+    <h2>🌿 Bienvenue chez Felicity Food 🌿</h2>
+    <p>
+        Chez <strong>Felicity Food</strong>, nous proposons des légumes frais, des fruits de qualité
+        et des épices 100 % naturelles provenant des producteurs locaux.
+    </p>
+    <p>
+        Notre objectif est de vous garantir la fraîcheur, la qualité et une commande rapide en ligne.
+    </p>
+
+    <a href="#produits" class="btn">Voir les produits</a>
+</section>
+
+<!-- PRODUITS -->
+<section id="produits">
+    <h2>🛒 Nos Produits</h2>
+
+    <!-- LÉGUMES -->
+    <h3>🥬 Légumes frais</h3>
+    <div class="products">
+        <div class="card">
+            <img src="images/pondu.jpg" alt="Pondu">
+            <h4>Pondu</h4>
+            <p>2 500 FC / botte</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/matembele.jpg" alt="Matembele">
+            <h4>Matembele</h4>
+            <p>2 000 FC / botte</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/ndunda.jpg" alt="Ndunda">
+            <h4>Ndunda</h4>
+            <p>2 000 FC / botte</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/ngai-ngai.jpg" alt="Ngai ngai">
+            <h4>Ngai ngai</h4>
+            <p>2 000 FC / botte</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+    </div>
+
+    <!-- FRUITS -->
+    <h3>🍎 Fruits</h3>
+    <div class="products">
+        <div class="card">
+            <img src="images/pomme.jpg" alt="Pomme rouge">
+            <h4>Pomme rouge</h4>
+            <p>3 500 FC / kg</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/avocat.jpg" alt="Avocat">
+            <h4>Avocat</h4>
+            <p>2 000 FC / pièce</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/mangue.jpg" alt="Mangue">
+            <h4>Mangue</h4>
+            <p>1 500 FC / pièce</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/orange.jpg" alt="Orange">
+            <h4>Orange</h4>
+            <p>1 000 FC / pièce</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+    </div>
+
+    <!-- ÉPICES -->
+    <h3>🌶️ Épices naturelles</h3>
+    <div class="products">
+        <div class="card">
+            <img src="images/tomates.jpg" alt="Tomates">
+            <h4>Tomates</h4>
+            <p>1 500 FC / kg</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/oignons.jpg" alt="Oignons">
+            <h4>Oignons</h4>
+            <p>1 200 FC / kg</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/piment.jpg" alt="Piment">
+            <h4>Piment</h4>
+            <p>1 000 FC</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/ail.jpg" alt="Ail">
+            <h4>Ail</h4>
+            <p>1 500 FC</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+
+        <div class="card">
+            <img src="images/aubergine.jpg" alt="Aubergine">
+            <h4>Aubergine</h4>
+            <p>1 200 FC</p>
+            <a class="btn" href="https://wa.me/243997722976">Commander</a>
+        </div>
+    </div>
+</section>
+
+<!-- À PROPOS -->
+<section id="apropos">
+    <h2>📞 À propos de nous</h2>
+    <p><strong>WhatsApp :</strong> +243 997 722 976</p>
+    <p><strong>Adresse :</strong> Avenue Potopoto, n°25, Q/Kabila, Kimbanseke</p>
+    <p><strong>Réf :</strong> Route Mokali</p>
+    <p><strong>Email :</strong> felicitylobeko01@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2025 Felicity Food</p>
+</footer>
+
+</body>
+</html>
